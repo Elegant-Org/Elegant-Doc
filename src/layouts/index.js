@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import Sidebar from '../components/sidebar'
 // import './index.css'
 import '../../../Elegant-UI/dist/elegant.css'
 const Layout = ({ children, data }) => (
@@ -14,10 +15,16 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'doc,elegant-doc,css-documentation, elegant-ui' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <div>
-      {children()}
+    
+    <div className="row">
+      <div className="col-xs-12 col-md-3 col-lg-2">
+        <Sidebar />
+      </div>
+      <div className="col-xs-12 col-md-9 col-lg-10">
+        {children()}
+      </div>
     </div>
+
   </div>
 )
 
