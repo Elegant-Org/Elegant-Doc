@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Logo from '../assets/img/logo.svg'
 
 const Sidebar = ({ siteTitle }) => (
   <div className="sidebar">
     <div className="sidebar-brand">
+      <img src={Logo} alt="Logo" />
     </div>
     <ul className="sidebar-menu">
       <li className="sidebar-menu-item">
