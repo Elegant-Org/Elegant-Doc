@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: surge
+  skip-cleanup: true
+  project: ./public/
+  domain: elegant.surge.sh
+  keep-history: true
+  on:
+    branch: master
+before_script:
+  - "npm i -g gatsby"
+  - "npm i"
+script:
+  - "npm run test"
+after_success:
+  - "npm run deploy"
