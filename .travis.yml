@@ -6,10 +6,9 @@ cache:
   - node_modules
 deploy:
   provider: surge
-  skip-cleanup: true
-  project: ./public/
+  project: ./public
   domain: elegant.surge.sh
-  keep-history: true
+  skip_cleanup: true
   on:
     branch: master
 before_script:
