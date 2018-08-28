@@ -5,10 +5,10 @@ cache:
   directories:
   - node_modules
 deploy:
-  provider: pages
+  provider: surge
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local_dir: public
+  project: ./public/
+  domain: elegant.surge.sh
   keep-history: true
   on:
     branch: master
