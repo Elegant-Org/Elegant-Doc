@@ -8,6 +8,7 @@ deploy:
   provider: surge
   project: ./public
   skip_cleanup: true
+  domain: elegant.surge.sh
   on:
     branch: master
 before_script:
