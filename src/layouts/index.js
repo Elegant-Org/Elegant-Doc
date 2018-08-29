@@ -2,10 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/header'
 import Sidebar from '../components/sidebar'
-// import './index.css'
-import '../../../Elegant-UI/dist/elegant.css'
+import './index.css'
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
