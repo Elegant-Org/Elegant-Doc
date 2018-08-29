@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Sidebar from '../components/sidebar'
-import './index.css'
+// import './index.css'
+import './global-style.css'
 
 const Layout = ({ children, data }) => (
   <div>
