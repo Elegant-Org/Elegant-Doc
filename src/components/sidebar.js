@@ -9,19 +9,19 @@ const Sidebar = ({ siteTitle }) => (
     </div>
     <ul className="sidebar-menu">
       <li className="sidebar-menu-item">
-        <Link to="/page-2/" className="is-active">Introduction</Link>
+        <Link to="/intro" activeClassName="is-active">Introduction</Link>
       </li>
       <li className="sidebar-menu-item">
-        <Link to="/page-2/">Colors</Link>
+        <Link to="/colors" activeClassName="is-active">Colors</Link>
       </li>
       <li className="sidebar-menu-item">
-        <Link to="/page-2/">Typography</Link>
+        <Link to="/typography" activeClassName="is-active">Typography</Link>
       </li>
       <li className="sidebar-menu-item">
-        <Link to="/page-2/">Cards</Link>
+        <Link to="/cards" activeClassName="is-active">Cards</Link>
       </li>
       <li className="sidebar-menu-item">
-        <Link to="/page-2/">Buttons & Inputs</Link>
+        <Link to="/buttons-inputs" activeClassName="is-active">Buttons & Inputs</Link>
       </li>
     </ul>
   </div>
