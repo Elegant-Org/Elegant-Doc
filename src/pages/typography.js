@@ -1,11 +1,14 @@
 import React from 'react'
+import PageHeader from '../components/page-header'
 
 const Typography = () => (
   <section>
     <div className='has-container'>
-      <h1>
-        Typography
-      </h1>
+      <PageHeader
+        page={'Typography'}
+        title={'Typographic Style'}
+        description={'We are extremely serious about pushing our typographic experience to next level'}
+      />
     </div>
   </section>
 )
