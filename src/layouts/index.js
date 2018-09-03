@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+require("prismjs/themes/prism-solarizedlight.css");
+
 
 import Sidebar from '../components/sidebar'
 import './index.css'

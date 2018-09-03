@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Logo from '../assets/img/logo.svg'
 
 const Sidebar = ({ siteTitle }) => (
-  <div className="sidebar">
+  <div className="sidebar has-no--background has-no--box-shadow">
     <div className="sidebar-brand">
       <Link to="/">
         <img src={Logo} alt="Logo" />
