@@ -5,11 +5,13 @@ import Logo from '../assets/img/logo.svg'
 const Sidebar = ({ siteTitle }) => (
   <div className="sidebar">
     <div className="sidebar-brand">
-      <img src={Logo} alt="Logo" />
+      <Link to="/">
+        <img src={Logo} alt="Logo" />
+      </Link>
     </div>
     <ul className="sidebar-menu">
       <li className="sidebar-menu-item">
-        <Link to="/intro" activeClassName="is-active">Introduction</Link>
+        <Link to="/getting-started" activeClassName="is-active">Getting Started</Link>
       </li>
       <li className="sidebar-menu-item">
         <Link to="/colors" activeClassName="is-active">Colors</Link>
