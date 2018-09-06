@@ -10,7 +10,7 @@ const Colors = () => (
         description={'We love color. Mostly we use our three main color, but we also have a wide variety of secondary color as well'}
       />
       <div className="row">
-        <div className="col-xs-12 col-md-6 col-lg-4">
+        <div className="col-xs-12 col-md-6 col-lg-6">
           <h3>Primary Color</h3>
           <div style={Style.container}>
 
@@ -34,7 +34,7 @@ const Colors = () => (
 
           </div>
         </div>
-        <div className="col-xs-12 col-md-6 col-lg-4">
+        <div className="col-xs-12 col-md-6 col-lg-6">
           <h3>Secondary Color</h3>
           <div style={Style.container}>
 
