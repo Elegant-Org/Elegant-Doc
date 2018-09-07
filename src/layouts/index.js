@@ -5,10 +5,10 @@ require("prismjs/themes/prism-solarizedlight.css");
 
 
 import Sidebar from '../components/sidebar'
-import './index.css'
+// import './index.css'
 import './global-style.css'
-// import '../../../Elegant-UI/dist/elegant.css'
-
+import './markdown-style.css'
+import '../../../Elegant-UI/dist/elegant.css'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -21,10 +21,10 @@ const Layout = ({ children, data }) => (
     />
 
     <div className="row">
-      <div className="col-xs-12 col-md-3 col-lg-2">
+      <div className="col-xs-12 col-md-3 col-lg-3 sidebar">
         <Sidebar />
       </div>
-      <div className="col-xs-12 col-md-9 col-lg-10">
+      <div className="col-xs-12 col-md-9 col-lg-9">
         {children()}
       </div>
     </div>
