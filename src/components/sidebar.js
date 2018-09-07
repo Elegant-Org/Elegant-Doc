@@ -17,13 +17,13 @@ const Sidebar = ({ siteTitle }) => (
         <Link to="/colors" activeClassName="is-active">Colors</Link>
       </li>
       <li className="sidebar-menu-item">
-        <Link to="/typography" activeClassName="is-active">Typography</Link>
+        <Link to="/css/typography" activeClassName="is-active">Typography</Link>
       </li>
       <li className="sidebar-menu-item">
-        <Link to="/cards" activeClassName="is-active">Cards</Link>
+        <Link to="/components/card" activeClassName="is-active">Cards</Link>
       </li>
       <li className="sidebar-menu-item">
-        <Link to="/buttons-inputs" activeClassName="is-active">Buttons & Inputs</Link>
+        <Link to="/components/button" activeClassName="is-active">Buttons</Link>
       </li>
     </ul>
   </div>
