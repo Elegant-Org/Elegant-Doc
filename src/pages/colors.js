@@ -1,14 +1,13 @@
 import React from 'react'
 import PageHeader from '../components/page-header'
+import ColorSolid from '../components/color/color-solid'
+import ColorShade from '../components/color/color-shades'
 
 const Colors = () => (
   <section>
     <div className='has-container'>
-      <PageHeader
-        page={'Color'}
-        title={'Solid Color'}
-        description={'We love color. Mostly we use our three main color, but we also have a wide variety of secondary color as well'}
-      />
+      <ColorSolid/>
+      <ColorShade/>
     </div>
   </section>
 )
