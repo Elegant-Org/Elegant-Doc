@@ -6,11 +6,11 @@ const IndexPage = () => (
   <section style={style.sectionBackground}>
     <div className='has-container'>
       <h1 style={style.brandTitle}>
-        Theme Identity
+        Elegant UI
         Guidlines
       </h1>
       <h2 style={{marginTop: 0}}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Modern CSS framework based on flexbox & grid.
       </h2>
     </div>
   </section>
