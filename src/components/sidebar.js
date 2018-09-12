@@ -40,18 +40,18 @@ export default class Sidebar extends Component {
           </li>
 
           <li className="sidebar-menu-item" >
-            <a onClick={() => this.toggle('css')} id='css' className="has-collapse">
+            <div onClick={() => this.toggle('css')} id='css' className="has-collapse">
               CSS
               <ul className="is-hidden">
                 <li className="sidebar-menu-item">
                   <Link to="/css/typography" activeClassName="is-active">Typography</Link>
                 </li>
               </ul>
-            </a>
+            </div>
           </li>
 
           <li className="sidebar-menu-item" >
-            <a onClick={() => this.toggle('components')} id='components' className="has-collapse">
+            <div onClick={() => this.toggle('components')} id='components' className="has-collapse">
               Components
               <ul className="is-hidden">
                 <li className="sidebar-menu-item">
@@ -61,7 +61,7 @@ export default class Sidebar extends Component {
                   <Link to="/components/card" activeClassName="is-active">Cards</Link>
                 </li>
               </ul>
-            </a>
+            </div>
           </li>
         </ul>
       </div>
