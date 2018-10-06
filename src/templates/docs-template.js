@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import PageHeader from '../components/page-header';
+import StyleSidebar from '../components/style-sidebar';
+import ComponentSidebar from '../components/component-sidebar';
 
 class Template extends Component {
+
+  
+
   render() {
     const { markdownRemark: page } = this.props.data;
     return (
@@ -16,8 +21,9 @@ class Template extends Component {
               description={page.frontmatter.description}
             />
             <div>{page.frontmatter.baseline}</div>
-            <div dangerouslySetInnerHTML={{ __html: page.html }} />
-          </div>
+            {page.frontmatter.docType == 'style'? <StyleSidebar/> : ''}
+            {page.frontmatter.docType == 'component'? <ComponentSidebar/> : ''}
+            <div dangerouslySetInnerHTML={{ __html: page.html }} /></div>
         </section>
       </div>
     );
@@ -29,6 +35,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
+        docType
         path
         pageTitle
         pageShortTitle

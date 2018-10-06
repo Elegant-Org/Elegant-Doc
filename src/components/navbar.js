@@ -7,6 +7,7 @@ import '../layouts/navbar.css';
 export default class Navbar extends Component {
 
   render() {
+    const currentUrl = location.pathname.split('/').filter (function(e){return e});
     return (
       <div className="navigation">
         
@@ -29,9 +30,14 @@ export default class Navbar extends Component {
                         </Link>
                     </li>
                     <li className="navTabs-item">
-                    <Link to="/css/typography" activeClassName="is-active">
-                        Typography
-                    </Link>
+                        <Link to="/style/typography" className={"is-" + (currentUrl[0] == 'style' ? 'active' : '')}>
+                            Style
+                        </Link>
+                    </li>
+                    <li className="navTabs-item">
+                        <Link to="/components/card" className={"is-" + (currentUrl[0] == 'components' ? 'active' : '')}>
+                            Components
+                        </Link>
                     </li>
                 </ul>
             </nav>
