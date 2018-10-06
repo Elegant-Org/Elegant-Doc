@@ -21,6 +21,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             html
             id
             frontmatter {
+              docType
               path
               pageTitle
               pageShortTitle

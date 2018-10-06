@@ -1,11 +1,10 @@
 ---
-path: "/css/modifier"
+docType: "style"
+path: "/style/modifier"
 pageShortTitle: "Modifier"
 pageTitle: "Modifier"
 description: 'Helper classes for human readability.'
 ---
-
-# good
 
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
