@@ -46,6 +46,9 @@ export default class Sidebar extends Component {
                 <li className="sidebar-menu-item">
                   <Link to="/css/typography" activeClassName="is-active">Typography</Link>
                 </li>
+                <li className="sidebar-menu-item">
+                  <Link to="/css/modifier" activeClassName="is-active">Modifier</Link>
+                </li>
               </ul>
             </div>
           </li>
