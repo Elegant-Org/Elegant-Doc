@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Navbar from '../components/navbar';
 require("prismjs/themes/prism-solarizedlight.css");
 
 
-import Sidebar from '../components/sidebar'
 import './index.css'
 import './global-style.css'
 import './markdown-style.css'
@@ -21,12 +21,14 @@ const Layout = ({ children, data }) => (
     />
 
     <div className="row">
-      <div className="col-xs-12 col-md-3 col-lg-3 sidebar">
-        <Sidebar />
-      </div>
-      <div className="col-xs-12 col-md-9 col-lg-9">
-        {children()}
-      </div>
+        <div className="col-xs-12 col-md-12 col-lg-12">
+          <Navbar/>
+        </div>
+        <div className="col-xs-12 col-md-12 col-lg-12">
+          <div className="doc-container">
+            {children()}
+          </div>
+        </div>
     </div>
 
   </div>
