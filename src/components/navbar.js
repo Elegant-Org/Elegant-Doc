@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link'
-import Logo from '../assets/img/logo.svg'
+import Logo from '../assets/img/logo-box.png'
 import '../layouts/navbar.css';
 
 
@@ -12,9 +12,9 @@ export default class Navbar extends Component {
       <div className="navigation">
         
         <div className="navTabsBar">
-            <div style={{'padding':24}}>
+            <div style={{'padding': '24px 24px 0px 24px'}}>
                 <Link to="/">
-                    <img src={Logo} alt="Logo" />
+                    <img src={Logo} alt="Logo" style={{height:80,width:80}} />
                 </Link>
             </div>
             <nav className="navTabs">
