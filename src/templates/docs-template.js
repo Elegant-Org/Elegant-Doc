@@ -21,14 +21,50 @@ class Template extends Component {
               description={page.frontmatter.description}
             />
             <div>{page.frontmatter.baseline}</div>
-            {page.frontmatter.docType == 'style'? <StyleSidebar/> : ''}
-            {page.frontmatter.docType == 'component'? <ComponentSidebar/> : ''}
-            <div dangerouslySetInnerHTML={{ __html: page.html }} /></div>
+
+            <div style={style.container}>
+
+            { 
+              page.frontmatter.docType == 'style' ? 
+              <div style={style.containerSidebar}>
+                <StyleSidebar/>
+              </div>
+               : ''
+            }
+
+            {
+              page.frontmatter.docType == 'component' ? 
+              <div style={style.containerSidebar}>
+                <ComponentSidebar/>
+              </div>
+               : ''
+            }
+
+              
+              <div style={style.containerBody} dangerouslySetInnerHTML={{ __html: page.html }} /></div>
+            </div>
+
         </section>
       </div>
     );
   }
 }
+
+const style = {
+  container: {
+    display: 'flex',
+    flexDirection: 'row'
+  },
+  containerSidebar: {
+    flex: 0,
+    minWidth: 112,
+    padding: 8
+  },
+  containerBody: {
+    flex: 1
+  }
+}
+
 export default Template
 export const pageQuery = graphql`
   query DocsByPath($path: String!) {
