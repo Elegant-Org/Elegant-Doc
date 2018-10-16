@@ -22,11 +22,10 @@ class Template extends Component {
             />
             <div>{page.frontmatter.baseline}</div>
 
-            <div style={style.container}>
-
+            <div style={style.container}> 
             { 
               page.frontmatter.docType == 'style' ? 
-              <div style={style.containerSidebar}>
+              <div className={'has-gap--normal'} style={style.containerSidebar}>
                 <StyleSidebar/>
               </div>
                : ''
@@ -34,16 +33,14 @@ class Template extends Component {
 
             {
               page.frontmatter.docType == 'component' ? 
-              <div style={style.containerSidebar}>
+              <div className={'has-gap--normal'} style={style.containerSidebar}>
                 <ComponentSidebar/>
               </div>
                : ''
-            }
-
-              
-              <div style={style.containerBody} dangerouslySetInnerHTML={{ __html: page.html }} /></div>
+            } 
+              <div style={style.containerBody} dangerouslySetInnerHTML={{ __html: page.html }}></div>
             </div>
-
+          </div>
         </section>
       </div>
     );
@@ -57,8 +54,7 @@ const style = {
   },
   containerSidebar: {
     flex: 0,
-    minWidth: 112,
-    padding: 8
+    paddingLeft: 0
   },
   containerBody: {
     flex: 1
