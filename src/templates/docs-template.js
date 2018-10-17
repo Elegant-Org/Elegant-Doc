@@ -20,8 +20,7 @@ class Template extends Component {
               title={page.frontmatter.pageTitle}
               description={page.frontmatter.description}
             />
-            <div>{page.frontmatter.baseline}</div>
-
+            {/* <div>{page.frontmatter.baseline}</div> */}
             <div style={style.container}> 
             { 
               page.frontmatter.docType == 'style' ? 
