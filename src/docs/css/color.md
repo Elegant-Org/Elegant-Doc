@@ -28,12 +28,12 @@ Helper class for text/vector color
 
 | Class | Value in HEX |
 |-------|:------------:|
-| has-color--black  |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--black">#4E535A</span> |
-| has-color--white  |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--white">#FFFFFF</span> |
-| has-color--purple |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--purple">#79589E</span> |
-| has-color--blue   |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--blue">#3268B9</span> |
-| has-color--gray   |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--gray">#96A3B5</span> |
-| has-color--red    |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--red">#FD7272</span> |
-| has-color--silver |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--silver">#E3E7EF</span> |
-| has-color--yellow |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--yellow">#FFB944</span> |
-| has-color--green  |  <span style="height:32px;width:32px;border-radius:4px;">&nbsp;&nbsp;&nbsp;</span>&nbsp; <span class="has-color--green">#1ABC9C<span> |
+| has-color--black  |  <span class="has-color--black">#4E535A</span> |
+| has-color--white  |  <span class="has-color--white">#FFFFFF</span> |
+| has-color--purple |  <span class="has-color--purple">#79589E</span> |
+| has-color--blue   |  <span class="has-color--blue">#3268B9</span> |
+| has-color--gray   |  <span class="has-color--gray">#96A3B5</span> |
+| has-color--red    |  <span class="has-color--red">#FD7272</span> |
+| has-color--silver |  <span class="has-color--silver">#E3E7EF</span> |
+| has-color--yellow |  <span class="has-color--yellow">#FFB944</span> |
+| has-color--green  |  <span class="has-color--green">#1ABC9C<span> |
