@@ -24,11 +24,11 @@ const Layout = ({ children, data }) => (
       ]}
     />
 
-    <div className="row">
-        <div className="col-xs-12 col-md-12 col-lg-12">
+    <div className="is-row">
+        <div className="is-col-xs-12 is-col-md-12 is-col-lg-12">
           <Navbar/>
         </div>
-        <div className="col-xs-12 col-md-12 col-lg-12">
+        <div className="is-col-xs-12 is-col-md-12 is-col-lg-12">
           <div className="doc-container">
             {children()}
           </div>
