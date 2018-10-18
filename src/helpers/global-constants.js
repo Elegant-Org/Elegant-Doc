@@ -1,6 +1,7 @@
 import StyleModifier from '../assets/img/style-modifier.svg'
-import StyleTypography from '../assets/img/style-modifier.svg'
+import StyleTypography from '../assets/img/style-typography.svg'
 import StyleColor from '../assets/img/style-color.svg'
+import StyleGrid from '../assets/img/style-grid.svg'
 
 export const styleMenu = [
     {
@@ -12,6 +13,11 @@ export const styleMenu = [
         "name": "Color",
         "icon": StyleColor,
         "link": "color"
+    },
+    {
+        "name": "Grid",
+        "icon": StyleGrid,
+        "link": "grid"
     },
     {
         "name": "Modifiers",
