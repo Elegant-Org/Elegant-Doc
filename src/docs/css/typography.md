@@ -5,11 +5,13 @@ pageShortTitle: "Style"
 pageTitle: "Typography"
 description: 'Elegant typography, including global settings, headings, body text, lists, and more.'
 ---
-# Settings
+
+<h1 style="margin-top:0px">Settings</h1>
+
 We are using Google open source font Roboto globally.
 -   Use the  `$family-sans-serif` and  `$family-monospace`  attributes as our typographic base applied to the  `<body>`.
 
-<h1 style="margin-top:0px">Headings</h1>
+#Headings
 
 All HTML headings, h1 through h6, are available.
 
