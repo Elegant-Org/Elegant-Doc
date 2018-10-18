@@ -33,7 +33,7 @@ Helper class for text/vector color
 | has-color--purple |  <span class="has-color--purple">#79589E</span> |
 | has-color--blue   |  <span class="has-color--blue">#3268B9</span> |
 | has-color--gray   |  <span class="has-color--gray">#96A3B5</span> |
-| has-color--red    |  <span class="has-color--red">#FD7272</span> |
 | has-color--silver |  <span class="has-color--silver">#E3E7EF</span> |
+| has-color--red    |  <span class="has-color--red">#FD7272</span> |
 | has-color--yellow |  <span class="has-color--yellow">#FFB944</span> |
 | has-color--green  |  <span class="has-color--green">#1ABC9C<span> |
