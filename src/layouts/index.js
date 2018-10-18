@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Navbar from '../components/navbar';
 require("prismjs/themes/prism-solarizedlight.css");
+import favicon from '../assets/img/favicon.png'
 
 
 import './index.css'
@@ -17,6 +18,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Documentation for Elegant UI' },
         { name: 'keywords', content: 'doc,elegant-doc,css-documentation, elegant-ui' },
+      ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
     />
 
