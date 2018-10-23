@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Navbar from '../components/navbar';
 require("prismjs/themes/prism-solarizedlight.css");
+import favicon from '../assets/img/favicon.png'
 
 
-import Sidebar from '../components/sidebar'
 import './index.css'
 import './global-style.css'
 import './markdown-style.css'
@@ -18,15 +19,20 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Documentation for Elegant UI' },
         { name: 'keywords', content: 'doc,elegant-doc,css-documentation, elegant-ui' },
       ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+      ]}
     />
 
-    <div className="row">
-      <div className="col-xs-12 col-md-3 col-lg-3 sidebar">
-        <Sidebar />
-      </div>
-      <div className="col-xs-12 col-md-9 col-lg-9">
-        {children()}
-      </div>
+    <div className="is-row">
+        <div className="is-col-xs-12 is-col-md-12 is-col-lg-12">
+          <Navbar/>
+        </div>
+        <div className="is-col-xs-12 is-col-md-12 is-col-lg-12">
+          <div className="doc-container">
+            {children()}
+          </div>
+        </div>
     </div>
 
   </div>

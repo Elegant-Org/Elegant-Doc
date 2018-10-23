@@ -1,5 +1,5 @@
 body {
-    background: #fafaff !important;
+    background: #FBFBFD !important;
 }
 
 .container-top-bottom--radius:first-child {
@@ -13,4 +13,7 @@ body {
 }
 .has-collapse {
   cursor: pointer;
+}
+.doc-container {
+  padding: 1.5em 6em;
 }

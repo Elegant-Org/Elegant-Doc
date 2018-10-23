@@ -10,16 +10,15 @@ const ColorShade = ({ siteTitle }) => (
       title={'Complementary Shades'}
       description={'Our passion for colors doesn’t stop at solid colors. We also collected are our favorite shades.'}
     />
-    <div className="row">
-      <div className="col-xs-12 col-md-12 col-lg-12">
-        <div className="row">
+    <div className="is-row">
+      <div className="is-col-xs-12 is-col-md-12 is-col-lg-12">
+        <div className="is-row">
           <Shade shades = {shadesGroup.purple} />
           <Shade shades = {shadesGroup.green} />
           <Shade shades = {shadesGroup.red} />
           <Shade shades = {shadesGroup.blue} />
           <Shade shades = {shadesGroup.yellow} />
           <Shade shades = {shadesGroup.gray} />
-
         </div>
       </div>
       </div>
@@ -134,7 +133,7 @@ function generateShades(shades) {
 }
 
 const Shade = ({ shades }) => (
-  <div className="col-xs-12 col-md-6 col-lg-4" style={{'marginBottom': '1.5em'}}>
+  <div className="is-col-xs-12 is-col-md-6 is-col-lg-4" style={{'marginBottom': '1.5em'}}>
     <div className="has-depth-bottom has-radius--large">
       { generateShades(shades) }
     </div>

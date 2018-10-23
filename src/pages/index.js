@@ -3,16 +3,21 @@ import Link from 'gatsby-link'
 import BrandImage from '../assets/img/brand-splash.svg'
 
 const IndexPage = () => (
-  <section style={style.sectionBackground}>
+  <section>
     <div className='has-container'>
-      <h1 style={style.brandTitle}>
-        Elegant UI
-        Guidlines
-      </h1>
-      <h2 style={{marginTop: 0}}>
-        Modern CSS framework based on flexbox & grid.
-      </h2>
+      <h1 style={style.brandTitle}>Elegant UI</h1>
+      <h2>Guidlines</h2>
+      <h3 style={{marginTop: 0, zIndex:1}}>
+      Modern CSS framework based on flexbox & grid.
+      </h3>
     </div>
+    <img src={BrandImage} style={{ 
+      position: 'fixed',
+      right: 0,
+      bottom: 0,
+      maxWidth: 500,
+      zIndex: -1
+    }}/>
   </section>
 )
 
@@ -28,7 +33,8 @@ const style = {
     marginBottom: 0,
     fontSize: 60,
     fontWeight: 'bold',
-    width: '60%'
+    width: '60%',
+    zIndex:1
   }
 }
 

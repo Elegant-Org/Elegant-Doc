@@ -1,3 +1,9 @@
+let activeEnv = process.env.NODE_ENV;
+
+if (!activeEnv) {
+  activeEnv = "development";
+}
+
 require("dotenv").config({
   path: `.env.${activeEnv}`,
 });

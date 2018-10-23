@@ -1,8 +1,8 @@
 import React from 'react'
 
 const PageHeader = ({ page, title, description }) => (
-  <div className={'row'}>
-    <div className={'col-sm-12 col-md-12 col-lg-12'}>
+  <div className={'is-row'}>
+    <div className={'is-col-sm-12 is-col-md-12 is-col-lg-12'}>
       <h5 style={ style.page } className={'is-text--uppercase'}>
         { page }
       </h5>

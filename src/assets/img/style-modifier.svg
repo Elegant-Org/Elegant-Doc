@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M16.4029651,4.41618292 L16.4029651,71.9206932 L8.20148256,80.53158 L-3.01980663e-14,71.9206932 L-3.01980663e-14,4.41618292 L5.32907052e-15,4.26325641e-14 L16.4029651,4.26325641e-14 L16.4029651,4.41618292 Z M16.4029651,4.41618292 L16.4029651,4.20588849 L-3.01980663e-14,4.20588849 L-3.01980663e-14,4.41618292 L5.32907052e-15,4.62647734 L16.4029651,4.62647734 L16.4029651,4.41618292 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.4029651" height="80.53158" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="27.3631102" y="-26.739726" width="16.8551032" height="70.5753425"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.8551032" height="70.5753425" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-25.000000, -32.000000)" id="Modifier">
+            <g transform="translate(24.000000, 31.000000)">
+                <g id="Group-2" transform="translate(2.000000, 2.000000)">
+                    <circle id="Oval" stroke="#4E535A" stroke-width="2" cx="48" cy="48" r="48"></circle>
+                    <g id="Pencil" transform="translate(47.995114, 48.237273) rotate(45.000000) translate(-47.995114, -48.237273) translate(39.495114, 7.737273)" stroke="#4E535A" stroke-width="4">
+                        <use id="Combined-Shape" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Scale" transform="translate(46.776394, 48.208589) rotate(-315.000000) translate(-46.776394, -48.208589) translate(10.776394, 39.708589)">
+                        <use id="Rectangle" stroke="#4E535A" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" transform="translate(35.790662, 8.547945) rotate(-270.000000) translate(-35.790662, -8.547945) " xlink:href="#path-3"></use>
+                        <rect id="Rectangle-2" fill="#4E535A" x="4.88963921" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="9.21146054" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="13.5332819" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="17.8551032" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="22.1769246" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="26.4987459" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="30.8205672" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="35.1423886" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="39.4642099" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="43.7860313" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="48.1078526" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="52.4296739" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="56.7514953" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="61.0733166" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                        <rect id="Rectangle-2" fill="#4E535A" x="65.395138" y="4.38356164" width="1.72872854" height="12.2739726"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

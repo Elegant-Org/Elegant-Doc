@@ -10,8 +10,8 @@ const ColorSolid = ({ siteTitle }) => (
     title={'Solid Color'}
     description={'We love color. Mostly we use our three main color, but we also have a wide variety of secondary color as well'}
   />
-  <div className="row">
-    <div className="col-xs-12 col-md-6 col-lg-6">
+  <div className="is-row">
+    <div className="is-col-xs-12 is-col-md-6 is-col-lg-6">
       <h3>Primary Color</h3>
       <div style={Style.container}>
 
@@ -35,7 +35,7 @@ const ColorSolid = ({ siteTitle }) => (
 
       </div>
     </div>
-    <div className="col-xs-12 col-md-6 col-lg-6">
+    <div className="is-col-xs-12 is-col-md-6 is-col-lg-6">
       <h3>Secondary Color</h3>
       <div style={Style.container}>
 
