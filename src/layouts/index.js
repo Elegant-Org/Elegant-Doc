@@ -11,7 +11,7 @@ import './global-style.css'
 import './markdown-style.css'
 // import '../../../Elegant-UI/dist/elegant.css'
 
-const Layout = ({ children, data }) => (
+const Layout = ({ children, data, location }) => (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
@@ -26,7 +26,7 @@ const Layout = ({ children, data }) => (
 
     <div className="is-row">
         <div className="is-col-xs-12 is-col-md-12 is-col-lg-12">
-          <Navbar/>
+          <Navbar location={location}/>
         </div>
         <div className="is-col-xs-12 is-col-md-12 is-col-lg-12">
           <div className="doc-container">
