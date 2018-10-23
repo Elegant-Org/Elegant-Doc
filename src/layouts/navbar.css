@@ -44,8 +44,8 @@
     padding-bottom: 16px;
 }
 .navTabs-item a:hover {
-    color: #FFFFFF;
-    font-weight: 700;
+    color: #C7D4E7;
+    /* font-weight: 700; */
 }
 
 .navTabsBar .navTabs-item .is-active{
