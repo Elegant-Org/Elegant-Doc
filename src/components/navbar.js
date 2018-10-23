@@ -7,7 +7,7 @@ import '../layouts/navbar.css';
 export default class Navbar extends Component {
 
   render() {
-    const currentUrl = location.pathname.split('/').filter (function(e){return e});
+    const currentUrl = this.props.location.pathname.split('/').filter (function(e){return e});
     return (
       <div className="navigation">
         

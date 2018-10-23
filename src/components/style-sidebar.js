@@ -10,18 +10,12 @@ export default class StyleSidebar extends Component {
 
   generateMenu() {
     let menuDom = [];
-    const currentUrl = location.pathname.split('/').filter (function(e){return e});
     styleMenu.forEach( function(menu,index){
       menuDom.push(
-        <div key={index} className={[
-            "item",
-            currentUrl[1] == menu.link ? 'is-active' : ''
-          ].join(' ')}>
-          <Link to={menu.link}>
+        <Link key={index} to={menu.link} activeClassName="is-active" className={["item",].join(' ')}>
             <img src={menu.icon}/>
             <span>{menu.name}</span>
-          </Link>
-        </div>
+        </Link>
       );
     });
     return menuDom;
