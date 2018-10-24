@@ -6,7 +6,7 @@
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Card">
             <g id="Group-2" transform="translate(2.000000, 2.000000)">
-                <circle id="Oval" stroke="#4E535A" stroke-width="2" cx="48" cy="48" r="48"></circle>
+                <circle id="Oval" stroke="#4E535A" stroke-width="4" cx="48" cy="48" r="48"></circle>
                 <g id="Group-3" transform="translate(19.000000, 27.000000)">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
