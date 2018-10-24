@@ -134,7 +134,7 @@ function generateShades(shades) {
 
 const Shade = ({ shades }) => (
   <div className="is-col-xs-12 is-col-md-6 is-col-lg-4" style={{'marginBottom': '1.5em'}}>
-    <div className="has-depth-bottom has-radius--large">
+    <div className="has-depth--bottom has-radius--large">
       { generateShades(shades) }
     </div>
   </div>

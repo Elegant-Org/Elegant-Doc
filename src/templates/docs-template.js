@@ -15,11 +15,7 @@ class Template extends Component {
         <Helmet title={`Docs | ${page.frontmatter.pageTitle}`} />
         <section>
           <div className='has-container'>
-            <PageHeader
-              page={page.frontmatter.pageShortTitle}
-              title={page.frontmatter.pageTitle}
-              description={page.frontmatter.description}
-            />
+            
             {/* <div>{page.frontmatter.baseline}</div> */}
             <div style={style.container}> 
             { 
@@ -37,7 +33,15 @@ class Template extends Component {
               </div>
                : ''
             } 
-              <div style={style.containerBody} dangerouslySetInnerHTML={{ __html: page.html }}></div>
+            <div>
+            <PageHeader
+              page={page.frontmatter.pageShortTitle}
+              title={page.frontmatter.pageTitle}
+              description={page.frontmatter.description}
+              isDocs={true}
+            />
+            <div style={style.containerBody} dangerouslySetInnerHTML={{ __html: page.html }}></div>
+            </div>
             </div>
           </div>
         </section>
