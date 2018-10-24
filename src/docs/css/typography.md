@@ -15,7 +15,7 @@ We are using Google open source font Roboto globally.
 
 All HTML headings, h1 through h6, are available.
 
-<div class="has-container has-radius has-background-color--white has-depth-bottom">
+<div class="has-container has-radius has-background-color--white has-depth--bottom">
     <h1 style="margin-top:0px">h1. Elegant heading</h1>
     <h2>h2. Elegant heading</h2>
     <h3>h3. Elegant heading</h3>
@@ -38,7 +38,7 @@ All HTML headings, h1 through h6, are available.
 
 Remove the default `list-style`
 
-<div class="has-container has-radius has-background-color--white has-depth-bottom">
+<div class="has-container has-radius has-background-color--white has-depth--bottom">
     <ul>
         <li>Lorem ipsum dolor sit amet</li>
         <li>Facilisis in pretium nisl aliquet</li>
