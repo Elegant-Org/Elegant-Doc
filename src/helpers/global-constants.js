@@ -2,6 +2,7 @@ import StyleModifier from '../assets/img/style-modifier.svg'
 import StyleTypography from '../assets/img/style-typography.svg'
 import StyleColor from '../assets/img/style-color.svg'
 import StyleGrid from '../assets/img/style-grid.svg'
+import ComponentCard from '../assets/img/component-card.svg'
 
 export const styleMenu = [
     {
@@ -29,7 +30,7 @@ export const styleMenu = [
 export const componentMenu = [
     {
         "name": "Card",
-        "icon": StyleColor,
+        "icon": ComponentCard,
         "link": "card"
     },
     {
