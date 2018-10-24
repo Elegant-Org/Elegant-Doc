@@ -25,3 +25,16 @@ export const styleMenu = [
         "link": "modifier"
     },
 ];
+
+export const componentMenu = [
+    {
+        "name": "Card",
+        "icon": StyleColor,
+        "link": "card"
+    },
+    {
+        "name": "Button",
+        "icon": StyleColor,
+        "link": "button"
+    },
+];
