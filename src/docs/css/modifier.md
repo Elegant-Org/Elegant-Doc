@@ -35,32 +35,32 @@ All modifiers start with `is-[CLASS]` OR `has-[CLASS]`
 <div class="is-row">
     <div class="is-col-sm-12">
         <div class="is-row">
-            <div class="is-col-sm-2">
+            <div class="is-col-sm-6 is-col-md-4 is-col-lg-2 is-col-md-4">
                 <div style="text-align:center;display:flex;min-height:120px;justify-content:center" class="has-depth--bottom has-container--small has-radius has-background-color--white">
                     <div style="align-self: center;font-size: 14px;" class="has-font-weight--bold">has-depth--bottom</div>
                 </div>
             </div>
-            <div class="is-col-sm-2">
+            <div class="is-col-sm-6 is-col-md-4 is-col-lg-2">
                 <div style="text-align:center;display:flex;min-height:120px;justify-content:center" class="has-depth--1 has-container--small has-radius has-background-color--white">
                     <div style="align-self: center;font-size: 14px;" class="has-font-weight--bold">has-depth--1</div>
                 </div>
             </div>
-            <div class="is-col-sm-2">
+            <div class="is-col-sm-6 is-col-md-4 is-col-lg-2">
                 <div style="text-align:center;display:flex;min-height:120px;justify-content:center" class="has-depth--2 has-container--small has-radius has-background-color--white">
                     <div style="align-self: center;font-size: 14px;" class="has-font-weight--bold">has-depth--2</div>
                 </div>
             </div>
-            <div class="is-col-sm-2">
+            <div class="is-col-sm-6 is-col-md-4 is-col-lg-2">
                 <div style="text-align:center;display:flex;min-height:120px;justify-content:center" class="has-depth--3 has-container--small has-radius has-background-color--white">
                     <div style="align-self: center;font-size: 14px;" class="has-font-weight--bold">has-depth--3</div>
                 </div>
             </div>
-            <div class="is-col-sm-2">
+            <div class="is-col-sm-6 is-col-md-4 is-col-lg-2">
                 <div style="text-align:center;display:flex;min-height:120px;justify-content:center" class="has-depth--4 has-container--small has-radius has-background-color--white">
                     <div style="align-self: center;font-size: 14px;" class="has-font-weight--bold">has-depth--4</div>
                 </div>
             </div>
-            <div class="is-col-sm-2">
+            <div class="is-col-sm-6 is-col-md-4 is-col-lg-2">
                 <div style="text-align:center;display:flex;min-height:120px;justify-content:center" class="has-depth--5 has-container--small has-radius has-background-color--white">
                     <div style="align-self: center;font-size: 14px;" class="has-font-weight--bold">has-depth--5</div>
                 </div>
