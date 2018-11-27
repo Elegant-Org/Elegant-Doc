@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button">
+            <g id="Group-2" transform="translate(2.000000, 2.000000)" stroke-width="4" stroke="#4E535A">
+                <circle id="Oval" cx="48" cy="48" r="48"></circle>
+            </g>
+            <path d="M66.7895162,47.8713444 C68.6082056,49.1255327 68.6075824,51.1594786 66.7895162,52.4133296 L40.2930285,70.6869491 C38.4743391,71.94123 37,71.1692809 37,68.9486712 L37,31.3375188 C37,29.1232136 38.4749623,28.3453148 40.2930285,29.5990734 L66.7895162,47.8713444 Z" id="Triangle" fill="#96A3B5"></path>
+        </g>
+    </g>
+</svg>
