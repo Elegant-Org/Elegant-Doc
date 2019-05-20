@@ -62,3 +62,91 @@ description: 'We use cards to make our ui visually more appealing and intersting
   </div>
 </div> 
 ```
+
+### Gradient Card
+`[colorName]` color name defined in variable map
+
+`[with-shadow]` provide bottom shadow in cards
+
+<div class="is-row">
+  <div class="is-col-sm-6 is-col-md-3 is-col-lg-4">
+    <div class="ui card" style="margin-bottom: 16px">
+        <div class="gradient linear purple">
+          <div style="display: flex;flex-direction: column;">
+            <div>
+              <h3 class="has-no--margin is-text--bolder">Purple</h3>
+              <div style="font-size: 14px;" class="has-font-weight--bold">gradient linear purple</div>
+            </div>
+          </div>
+        </div>
+    </div>  
+  </div>
+  <div class="is-col-sm-6 is-col-md-3 is-col-lg-4">
+    <div class="ui card" style="margin-bottom: 16px">
+        <div class="gradient linear green">
+          <div style="display: flex;flex-direction: column;">
+            <div>
+              <h3 class="has-no--margin is-text--bolder">Green</h3>
+              <div style="font-size: 14px;" class="has-font-weight--bold">gradient linear green</div>
+            </div>
+          </div>
+        </div>
+    </div>  
+  </div>
+  <div class="is-col-sm-6 is-col-md-3 is-col-lg-4">
+    <div class="ui card" style="margin-bottom: 16px">
+        <div class="gradient linear red">
+          <div style="display: flex;flex-direction: column;">
+            <div>
+              <h3 class="has-no--margin is-text--bolder">Red</h3>
+              <div style="font-size: 14px;" class="has-font-weight--bold">gradient linear red</div>
+            </div>
+          </div>
+        </div>
+    </div>  
+  </div>
+  <div class="is-col-sm-6 is-col-md-3 is-col-lg-4">
+    <div class="ui card" style="margin-bottom: 16px">
+        <div class="gradient linear yellow with-shadow">
+          <div style="display: flex;flex-direction: column;">
+            <div>
+              <h3 class="has-no--margin is-text--bolder">Yellow</h3>
+              <div style="font-size: 14px;" class="has-font-weight--bold">gradient linear yellow with-shadow</div>
+            </div>
+          </div>
+        </div>
+    </div>  
+  </div>
+  <div class="is-col-sm-6 is-col-md-3 is-col-lg-4">
+    <div class="ui card" style="margin-bottom: 16px">
+        <div class="gradient linear blue with-shadow">
+          <div style="display: flex;flex-direction: column;">
+            <div>
+              <h3 class="has-no--margin is-text--bolder">Blue</h3>
+              <div style="font-size: 14px;" class="has-font-weight--bold">gradient linear blue with-shadow</div>
+            </div>
+          </div>
+        </div>
+    </div>  
+  </div>
+  <div class="is-col-sm-6 is-col-md-3 is-col-lg-4">
+    <div class="ui card" style="margin-bottom: 16px">
+        <div class="gradient linear gray with-shadow">
+          <div style="display: flex;flex-direction: column;">
+            <div>
+              <h3 class="has-no--margin is-text--bolder">Gray</h3>
+              <div style="font-size: 14px;" class="has-font-weight--bold">gradient linear gray with-shadow</div>
+            </div>
+          </div>
+        </div>
+    </div>  
+  </div>
+</div>
+
+```html
+<div class="ui card">
+  <div class="gradient linear `[colorName]` `[with-shadow]`">
+      Content Area
+  </div>
+</div> 
+```
